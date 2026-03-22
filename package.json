@@ -31,10 +31,10 @@
   "homepage": "https://ip.hmddevs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ichbinheimdall/ip-api.git"
+    "url": "git+https://github.com/umutguden/ip-api.git"
   },
   "bugs": {
-    "url": "https://github.com/ichbinheimdall/ip-api/issues"
+    "url": "https://github.com/umutguden/ip-api/issues"
   },
   "dependencies": {
     "geoip-lite": "^1.4.10"
