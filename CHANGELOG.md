@@ -7,32 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-- Initial release planned features
-
 ## [1.0.0] - 2025-11-29
 
 ### Added
-- 🎉 Initial release
+- Initial release
 - IP address detection with multiple header support
-- Country code lookup using geoip-lite
-- CORS support for cross-origin requests
+- Country code lookup via geoip-lite
+- CORS support
 - Security headers (X-Content-Type-Options, X-Frame-Options, etc.)
-- IPv6-mapped IPv4 address normalization
+- IPv6-mapped IPv4 address normalisation
 - Cloudflare IP header support
-- Comprehensive documentation
-- GitHub Actions CI/CD pipeline
-- Issue and PR templates
-- Contributing guidelines
-- Code of Conduct
-- Security policy
+- Documentation, CI/CD, issue and PR templates
+- Contributing guidelines, Code of Conduct, security policy
 
 ### Security
-- Added security headers to all responses
-- Input validation and sanitization
-- No data logging or storage (privacy-first design)
-
----
+- Security headers on all responses
+- Input validation and sanitisation
+- No data logging or storage
 
 [Unreleased]: https://github.com/hmddevs/ip-api/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/hmddevs/ip-api/releases/tag/v1.0.0

@@ -1,43 +1,39 @@
 ---
-name: 🐛 Bug Report
+name: Bug Report
 about: Report a bug to help us improve
 title: '[BUG] '
 labels: bug
 assignees: ''
 ---
 
-## 🐛 Bug Description
+## Description
 
-A clear and concise description of what the bug is.
+A clear description of the bug.
 
-## 📝 Steps to Reproduce
+## Steps to Reproduce
 
-1. Go to '...'
-2. Click on '...'
-3. See error
+1. ...
+2. ...
+3. ...
 
-## ✅ Expected Behavior
+## Expected Behaviour
 
-A clear and concise description of what you expected to happen.
+What you expected to happen.
 
-## ❌ Actual Behavior
+## Actual Behaviour
 
-A clear and concise description of what actually happened.
+What actually happened.
 
-## 📸 Screenshots
+## Screenshots
 
-If applicable, add screenshots to help explain your problem.
+If applicable, attach screenshots.
 
-## 🌐 Environment
+## Environment
 
-- **Browser**: [e.g., Chrome 120, Safari 17]
-- **OS**: [e.g., macOS Sonoma, Windows 11]
-- **Node.js version** (if self-hosting): [e.g., 18.19.0]
+- **Browser**: [e.g. Chrome 120, Safari 17]
+- **OS**: [e.g. macOS Sonoma, Windows 11]
+- **Node.js version** (if self-hosting): [e.g. 18.19.0]
 
-## 📋 Additional Context
+## Additional Context
 
-Add any other context about the problem here.
-
-## 🔗 Related Issues
-
-Link any related issues here.
+Any other relevant information.

@@ -2,17 +2,10 @@ openapi: 3.1.0
 info:
   title: IP API
   description: |
-    A lightning-fast, privacy-focused IP geolocation API.
+    A privacy-focused IP geolocation API.
 
     Returns the client's public IP address and country code in JSON format.
     No API keys required. No logging. No tracking.
-
-    ## Features
-    - 🚀 Sub-100ms response times via Vercel's edge network
-    - 🔒 Privacy-first design with no data storage
-    - 🌐 Global coverage for accurate geolocation
-    - 📦 Zero configuration required
-    - 🆓 100% free and open source
 
     ## Rate Limits
     No rate limits are currently enforced. Please be respectful of the service.

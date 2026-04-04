@@ -1,38 +1,33 @@
 <div align="center">
 
-# 🌍 IP API
+# IP API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Deploy with Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://ip.hmddevs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![GitHub Stars](https://img.shields.io/github/stars/ichbinheimdall/ip-api?style=social)](https://github.com/ichbinheimdall/ip-api)
 
-**A lightning-fast, privacy-focused IP geolocation API**
+**Privacy-focused IP geolocation API.**
 
-[Live Demo](https://ip.hmddevs.org) · [Report Bug](https://github.com/ichbinheimdall/ip-api/issues) · [Request Feature](https://github.com/ichbinheimdall/ip-api/issues)
+[Live](https://ip.hmddevs.org) · [Report a Bug](https://github.com/hmddevs/ip-api/issues) · [Request a Feature](https://github.com/hmddevs/ip-api/issues)
 
 ---
 
 </div>
 
-## ✨ Features
+## Features
 
-- 🚀 **Blazing Fast** — Powered by Vercel's edge network for sub-100ms responses
-- 🔒 **Privacy First** — No logging, no tracking, no data storage
-- 🌐 **Global Coverage** — Accurate geolocation data for IPs worldwide
-- 📦 **Zero Config** — Works out of the box, no API keys required
-- 🆓 **100% Free** — Open source and free to use forever
-- ⚡ **Lightweight** — Minimal response payload for efficient bandwidth usage
+- Sub-100ms responses via Vercel's edge network
+- No logging, no tracking, no data storage
+- Accurate geolocation data for IPs worldwide
+- No API keys required
+- Open source and free to use
+- Minimal response payload
 
-## 🎯 Quick Start
-
-### Make a Request
+## Quick Start
 
 ```bash
 curl https://ip.hmddevs.org
 ```
-
-### Response
 
 ```json
 {
@@ -41,7 +36,7 @@ curl https://ip.hmddevs.org
 }
 ```
 
-## 📖 API Documentation
+## API
 
 ### Endpoint
 
@@ -51,18 +46,18 @@ GET https://ip.hmddevs.org/
 
 ### Response Fields
 
-| Field     | Type     | Description                                      |
-|-----------|----------|--------------------------------------------------|
-| `ip`      | `string` | The client's public IP address                   |
-| `country` | `string` | ISO 3166-1 alpha-2 country code (e.g., `US`, `DE`, `JP`) |
+| Field     | Type     | Description                                                          |
+|-----------|----------|----------------------------------------------------------------------|
+| `ip`      | `string` | The client's public IP address                                       |
+| `country` | `string` | ISO 3166-1 alpha-2 country code (e.g. `US`, `DE`, `JP`)             |
 
-### HTTP Status Codes
+### Status Codes
 
-| Code  | Description           |
-|-------|-----------------------|
-| `200` | Successful response   |
+| Code  | Description         |
+|-------|---------------------|
+| `200` | Successful response |
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### JavaScript (Fetch)
 
@@ -172,30 +167,24 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-## 🛠️ Self-Hosting
+## Self-Hosting
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) 18 or higher
-- [Vercel CLI](https://vercel.com/cli) (optional, for deployment)
+- [Node.js](https://nodejs.org/) 18+
+- [Vercel CLI](https://vercel.com/cli) (optional)
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/ichbinheimdall/ip-api.git
-
-# Navigate to the project directory
+git clone https://github.com/hmddevs/ip-api.git
 cd ip-api
-
-# Install dependencies
 npm install
 ```
 
 ### Local Development
 
 ```bash
-# Start the development server
 npm run dev
 ```
 
@@ -203,116 +192,69 @@ Visit `http://localhost:3000` to test locally.
 
 ### Deploy to Vercel
 
-#### Option 1: One-Click Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hmddevs/ip-api)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ichbinheimdall/ip-api)
-
-#### Option 2: CLI Deployment
+Or via CLI:
 
 ```bash
-# Install Vercel CLI
 npm install -g vercel
-
-# Deploy to preview
-vercel
-
-# Deploy to production
 vercel --prod
 ```
 
-### Custom Domain Setup
-
-1. Go to your [Vercel Dashboard](https://vercel.com/dashboard)
-2. Select your project
-3. Navigate to **Settings** → **Domains**
-4. Add your custom domain
-5. Configure DNS records as instructed
-
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ip-api/
 ├── api/
-│   └── index.js          # Main API handler
+│   └── index.js            # Main API handler
 ├── test/
-│   └── api.test.js       # Unit tests
+│   └── api.test.js         # Unit tests
 ├── .github/
-│   ├── ISSUE_TEMPLATE/   # Issue templates
-│   ├── workflows/        # GitHub Actions (CI/CD)
-│   └── dependabot.yml    # Automated dependency updates
-├── .editorconfig         # Editor configuration
-├── eslint.config.js      # ESLint configuration
-├── jsconfig.json         # JavaScript project configuration
-├── openapi.yaml          # OpenAPI 3.1 specification
-├── package.json          # Project configuration
-├── vercel.json           # Vercel configuration
-├── CHANGELOG.md          # Version history
-├── LICENSE               # MIT License
-├── CONTRIBUTING.md       # Contribution guidelines
-├── CODE_OF_CONDUCT.md    # Community guidelines
-├── SECURITY.md           # Security policy
-└── README.md             # Documentation
+│   ├── ISSUE_TEMPLATE/     # Issue templates
+│   ├── workflows/          # CI/CD
+│   └── dependabot.yml      # Dependency updates
+├── openapi.yaml            # OpenAPI 3.1 specification
+├── package.json
+├── vercel.json
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+└── LICENSE
 ```
 
-## 🧪 Development
-
-### Available Scripts
+## Scripts
 
 ```bash
-# Start development server
-npm run dev
-
-# Run linting
-npm run lint
-
-# Fix linting issues
-npm run lint:fix
-
-# Run tests
-npm test
-
-# Deploy to production
-npm run deploy
+npm run dev          # Start development server
+npm run lint         # Run linting
+npm run lint:fix     # Fix linting issues
+npm test             # Run tests
+npm run deploy       # Deploy to production
 ```
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## Security
 
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for details.
+Found a vulnerability? See [SECURITY.md](SECURITY.md).
 
-## 🔒 Security
+## Licence
 
-Found a security vulnerability? Please report it responsibly. See our [Security Policy](SECURITY.md) for details.
+[MIT](LICENSE)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgements
 
 - [MaxMind GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) for geolocation data
 - [geoip-lite](https://github.com/geoip-lite/node-geoip) for the Node.js geolocation library
-- [Vercel](https://vercel.com) for hosting and edge network
-
-## 📬 Contact
-
-**HMD Developments, Inc.**
-
-- Website: [hmddevs.org](https://hmddevs.org)
-- GitHub: [@ichbinheimdall](https://github.com/ichbinheimdall)
-- Project: [github.com/ichbinheimdall/ip-api](https://github.com/ichbinheimdall/ip-api)
+- [Vercel](https://vercel.com) for hosting
 
 ---
 
 <div align="center">
 
-Copyright © 2025 [HMD Developments, Inc.](https://hmddevs.org) — All rights reserved.
+Copyright 2025 [HMD Developments, Inc.](https://hmddevs.org)
 
 </div>
