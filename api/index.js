@@ -3,7 +3,7 @@
  *
  * @author HMD Developments, Inc.
  * @license MIT
- * @see https://github.com/umutguden/ip-api
+ * @see https://github.com/hmddevs/ip-api
  * @version 1.0.0
  */
 

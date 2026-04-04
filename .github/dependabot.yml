@@ -13,7 +13,7 @@ updates:
       - "dependencies"
       - "automated"
     reviewers:
-      - "ichbinheimdall"
+      - "umutguden"
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
